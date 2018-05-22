@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.router.R;
 
-@Route(path = "/com/TestFragment")
-public class TestFragment extends Fragment {
+@Route(path = "/com/LocalFragment")
+public class LocalFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

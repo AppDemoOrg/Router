@@ -9,8 +9,8 @@ import com.router.R;
 /**
  *  自定义路由组
  */
-@Route(path = "/com/CustomGroupActivity" , group = "customGroup")
-public class CustomGroupActivity extends AppCompatActivity {
+@Route(path = "/com/GroupActivity" , group = "customGroup")
+public class GroupActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

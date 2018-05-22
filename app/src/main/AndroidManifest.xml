@@ -22,18 +22,17 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.Activity1" />
-        <activity android:name=".activity.CustomGroupActivity" />
+        <activity android:name=".activity.LocalActivity" />
+        <activity android:name=".activity.GroupActivity" />
         <activity android:name=".activity.WebActivity" />
-        <activity android:name=".activity.URLActivity1"></activity>
-        <activity android:name=".activity.URLActivity2"></activity>
+        <activity android:name=".activity.URLActivity"></activity>
+        <activity android:name=".activity.URLParamActivity"></activity>
 
         <activity android:name=".activity.URLReceiveActivity">
-            <!-- Schame -->
             <intent-filter>
                 <data
                     android:host="zhaoyanjun"
-                    android:scheme="arouter" />
+                    android:scheme="arouter" /> <!-- schame -->
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />

@@ -3,62 +3,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.router.activity.MainActivity"
     android:orientation="vertical"
-    >
+    tools:context="com.router.activity.MainActivity">
 
     <TextView
         android:id="@+id/bt1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="应用内跳转"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#666666"
         android:gravity="center"
         android:padding="10dp"
-        android:background="#666666"
-        />
+        android:text="应用内跳转" />
 
     <TextView
         android:id="@+id/bt2"
-        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="自定义路由分组"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#666666"
         android:gravity="center"
         android:padding="10dp"
-        android:background="#666666"
-        />
+        android:text="自定义路由分组" />
 
     <TextView
         android:id="@+id/bt3"
-        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="URL路由"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#666666"
         android:gravity="center"
         android:padding="10dp"
-        android:background="#666666"
-        />
+        android:text="URL路由" />
 
     <TextView
         android:id="@+id/bt4"
-        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="暴露服务1"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#666666"
         android:gravity="center"
         android:padding="10dp"
-        android:background="#666666"
-        />
+        android:text="暴露服务1" />
 
     <TextView
         android:id="@+id/bt5"
-        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="暴露服务2"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#666666"
         android:gravity="center"
         android:padding="10dp"
-        android:background="#666666"
-        />
+        android:text="暴露服务2" />
 
 </LinearLayout>

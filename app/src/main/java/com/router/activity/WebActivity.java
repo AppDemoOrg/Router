@@ -7,17 +7,20 @@ import android.webkit.WebView;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.router.R;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 @Route(path = "/com/WebActivity")
 public class WebActivity extends AppCompatActivity {
 
-    private WebView webView;
+    @BindView(R.id.webView)
+    WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
-
-        webView = (WebView) findViewById(R.id.webView);
-        webView.loadUrl("file:///android_asset/schame-test.html");
+        ButterKnife.bind(this);
+        webView.loadUrl("file:///android_asset/schema.html");
     }
 }

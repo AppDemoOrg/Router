@@ -1,4 +1,5 @@
 package com.router.activity;
+
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -6,11 +7,10 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.router.R;
 
 /**
- * URL 中转Activity
+ * URL中转Activity
  */
-
-@Route(path = "/com/URLActivity1")
-public class URLActivity1 extends AppCompatActivity {
+@Route(path = "/com/URLActivity")
+public class URLActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -4,14 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.router.activity.URLActivity1">
+    tools:context="com.router.activity.URLActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="这是 WebActivityTest ， 没有参数跳转"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:textSize="20sp"
-        />
+        android:text="这是 WebActivityTest ， 没有参数跳转"
+        android:textSize="20sp" />
 </LinearLayout>

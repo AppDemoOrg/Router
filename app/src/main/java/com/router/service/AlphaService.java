@@ -8,9 +8,8 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 /**
  * Created by ${zhaoyanjun} on 2017/7/28.
  */
-
 @Route(path = "/service/hello", name = "测试服务")
-public class MyService implements IService {
+public class AlphaService implements IService {
 
     @Override
     public void sayHello( Context context ) {
