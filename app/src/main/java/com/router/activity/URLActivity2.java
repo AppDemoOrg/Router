@@ -1,4 +1,4 @@
-package com.router;
+package com.router.activity;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.widget.TextView;
 import com.alibaba.android.arouter.facade.annotation.Autowired;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.router.R;
 
 
 @Route(path = "/com/URLActivity2")

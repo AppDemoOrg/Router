@@ -1,8 +1,9 @@
-package com.router;
+package com.router.activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
+import com.router.R;
 
 /**
  * URL 中转Activity

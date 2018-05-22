@@ -1,10 +1,11 @@
-package com.router;
+package com.router.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
+import com.router.R;
 
 @Route(path = "/com/WebActivity")
 public class WebActivity extends AppCompatActivity {

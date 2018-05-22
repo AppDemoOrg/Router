@@ -1,4 +1,4 @@
-package com.router;
+package com.router.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,7 @@ import com.alibaba.android.arouter.facade.Postcard;
 import com.alibaba.android.arouter.facade.annotation.Autowired;
 import com.alibaba.android.arouter.facade.callback.NavCallback;
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.router.R;
 import com.router.service.IService;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {

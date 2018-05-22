@@ -1,14 +1,14 @@
-package com.router;
+package com.router.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
+import com.router.R;
 
 /**
  *  自定义路由组
  */
-
 @Route(path = "/com/CustomGroupActivity" , group = "customGroup")
 public class CustomGroupActivity extends AppCompatActivity {
 
